@@ -1,7 +1,7 @@
 <div class="container__big-card">
 
   <div class="big-card__photo">
-    <img src="https://secureservercdn.net/166.62.110.60/h65.3a1.myftpupload.com/wp-content/uploads/2021/09/variable-placeholder-product-31.jpg?time=1644500349" 
+    <img src="{{ photoCover }}" 
     alt="" 
     height="200px"
     
@@ -10,10 +10,10 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
-   <p><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada condimentum lacus, sit amet scelerisque sem laoreet sed. Nunc sodales enim a nisi ultricies, at accumsan turpis malesuada.</a></p>
+   <p><a href="#">{{ carDescription }}</a></p>
   </div>
 </div>
